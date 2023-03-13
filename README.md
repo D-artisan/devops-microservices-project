@@ -1,4 +1,4 @@
-
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/D-artisan/devops-microservices-project/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/D-artisan/devops-microservices-project/tree/main)
 # Operationalize-a-Machine-Learning-Microservice-API
 Microservice Project [Udacity Cloud DevOps Engineer Nanodegree]
 
@@ -12,7 +12,6 @@ Deploy a containerized Python flask application to serve out predictions (infere
 * Configure Kubernetes and create a Kubernetes cluster
 * Deploy a container using Kubernetes and make a prediction
 * Upload a complete Github repo with CircleCI to indicate the code has been tested
-
 
 
 ---
