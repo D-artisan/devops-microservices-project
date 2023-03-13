@@ -1,3 +1,22 @@
+* Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+
+ ___________________________________________________________________________________________________
+
+NAME                                  READY   STATUS                       RESTARTS   AGE
+udpapi                                1/1     Running                      7          3h1m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+______________________________________________________________________________________________________
+
 [2023-03-13 06:40:18,556] INFO in app: JSON payload: 
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
 [2023-03-13 06:40:18,570] INFO in app: Inference payload DataFrame: 
