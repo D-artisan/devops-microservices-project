@@ -65,6 +65,12 @@ def predict():
     # TO DO:  Log the output prediction value
     return jsonify({'prediction': prediction})
 
+# Get a prediction from the model
+predicted_value = model.predict(scaled_input)
+
+# Log the prediction
+logging.info(f"Predicted value: {predicted_value}")
+
 if __name__ == "__main__":
     # load pretrained model as clf
     clf = joblib.load("./model_data/boston_housing_prediction.joblib")
