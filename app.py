@@ -62,14 +62,9 @@ def predict():
     scaled_payload = scale(inference_payload)
     # get an output prediction from the pretrained model, clf
     prediction = list(clf.predict(scaled_payload))
-    # TO DO:  Log the output prediction value
+    # Log the output prediction value
+    LOG.info(f"Output prediction value: \n{prediction}")
     return jsonify({'prediction': prediction})
-
-    # Get a prediction from the model
-    predicted_value = model.predict(scaled_input)
-
-    # Log the prediction
-    logging.info(f"Predicted value: {predicted_value}")
 
 if __name__ == "__main__":
     # load pretrained model as clf
